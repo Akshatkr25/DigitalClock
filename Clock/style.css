@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(60, 60, 60) ;
+    /* background-image:url("https://collegeinfogeek.com/wp-content/uploads/2019/06/best-time-tracking-apps-featured-image.jpg");   */
+    background-position: center;
+    background-size: cover;
+    background-clip:padding-box;
+}
+
+.hours, .minutes, .seconds, .am_or_pm{
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 3px 3px 9px #1a1a45, -3px -3px 9px #5e52ff;
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+font-size: 1.8em;
+font-family: 'Tourney', sans-serif; 
+color: white;
+}
+
+.box{
+    text-align: center;
+    
+}
+
+.box > h1{
+    color: white;
+    font-size: 1.4em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
