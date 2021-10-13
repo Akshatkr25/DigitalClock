@@ -1,2 +1,2 @@
 # DigitalClock
-Clock to fetch current date and time
+Clock Website to fetch current date and time
